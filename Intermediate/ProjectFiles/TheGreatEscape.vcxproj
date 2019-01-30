@@ -506,8 +506,10 @@
     <None Include="..\..\Config\DefaultEngine.ini" />
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Source\TheGreatEscape\TheGreatEscape.Build.cs" />
+    <ClCompile Include="..\..\Source\TheGreatEscape\OpenDoor.cpp" />
     <ClCompile Include="..\..\Source\TheGreatEscape\PositionReport.cpp" />
     <ClCompile Include="..\..\Source\TheGreatEscape\TheGreatEscape.cpp" />
+    <ClInclude Include="..\..\Source\TheGreatEscape\OpenDoor.h" />
     <ClInclude Include="..\..\Source\TheGreatEscape\PositionReport.h" />
     <ClInclude Include="..\..\Source\TheGreatEscape\TheGreatEscape.h" />
     <ClCompile Include="..\..\Source\TheGreatEscape\TheGreatEscapeGameModeBase.cpp" />
