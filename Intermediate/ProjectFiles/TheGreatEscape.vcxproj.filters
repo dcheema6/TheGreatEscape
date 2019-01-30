@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TheGreatEscape.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{840E7A15-0D1C-4F79-A8D0-917B74096AF0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TheGreatEscape.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TheGreatEscapeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{CCAC7BC2-3DEF-499E-9F99-ACBAAD045CA1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TheGreatEscape">
+      <UniqueIdentifier>{994B71CB-E220-4EBD-83B5-F83E6910BB06}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TheGreatEscape\TheGreatEscape.Build.cs">
+      <Filter>Source\TheGreatEscape</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TheGreatEscape\TheGreatEscape.cpp">
+      <Filter>Source\TheGreatEscape</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheGreatEscape\TheGreatEscape.h">
+      <Filter>Source\TheGreatEscape</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheGreatEscape\TheGreatEscapeGameModeBase.cpp">
+      <Filter>Source\TheGreatEscape</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheGreatEscape\TheGreatEscapeGameModeBase.h">
+      <Filter>Source\TheGreatEscape</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\TheGreatEscape\PositionReport.h">
+      <Filter>Source\TheGreatEscape</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\TheGreatEscape\PositionReport.cpp">
+      <Filter>Source\TheGreatEscape</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
